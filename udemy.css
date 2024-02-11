@@ -25,29 +25,30 @@ body{
     font-weight: 500;   
 }
 .header__searchbar{
-    padding: 5px;
+    padding: px;
     border: solid black 1px;
-    width: 100%;
+    width: 60%;
     border-radius: 30px;
     margin-left: 20px;
     margin-bottom: 30px;
     margin-top:10px;
+    display: flex;
+    gap: 10px;
+    
     
     
     
 }
 .header__searchbar--box{
     border: none;
-    font-size:medium ;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding:0px;
+    font-size:small ;
+    padding-top: px;
+    padding-bottom: px;
+    width: 100%;
+    margin-left: px;  
+    outline: none; 
 
-    
-    
-    
-}
-.fa-magnifying-glass{
-    padding-left: 10px;   
 }
 .header__icons{
     display: flex;
@@ -56,36 +57,15 @@ body{
     font-weight: 100;
     padding-top: 10px;
     padding-left: 10px;
+    margin-bottom: 10px;
+    height: 2px;
 
 }
 .header__icons p{
-    margin: 10px;
-}
-.cart{
-    color: black;
-    margin-top: 10px;
-    padding-top: 10px;
-    font-size: larger;
-    margin-right: 0px;
-}
-.login{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
     
-    border: solid black 1px;
-    margin: 10px;
-    padding: 10px;
     
 }
-.signup{
-    border: solid black 1px;
-}
-.signinpage{
-    display: inline;
-
-    width: 30px;
-    margin-top: 10px;
-    gap: 10px;
-}
-.header2{
-    justify-content: end;
-}
-
