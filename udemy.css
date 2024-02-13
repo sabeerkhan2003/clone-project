@@ -9,31 +9,35 @@ body{
 .header1{
     display: flex;
     justify-content: space-between;
-    margin-left: 10px;
-    margin-top: 10px;    
+    margin-left: px;
+    height: 40px;
+      
 }
 .header__name{
     color: black;
     margin-top:  10px;
-    padding-left: 10px;
+    margin-left: 20px;
     display: flex;
 }
 .header__name--categories{
     padding-top: 10px;
-    padding-left: 20px;
+    margin-left: 15px;
     font-family:"Gabarito";  
-    font-weight: 500;   
+    font-weight: 500; 
+     
+    
 }
 .header__searchbar{
-    padding: px;
+    padding: 5px;
     border: solid black 1px;
-    width: 60%;
+    width: 35%;
     border-radius: 30px;
-    margin-left: 20px;
-    margin-bottom: 30px;
-    margin-top:10px;
     display: flex;
-    gap: 10px;
+    height: 35px;
+    margin-top:10px;
+    margin-right: 0px;
+    
+   
     
     
     
@@ -45,27 +49,95 @@ body{
     font-size:small ;
     padding-top: px;
     padding-bottom: px;
-    width: 100%;
+    width: 90%;
+    
     margin-left: px;  
     outline: none; 
+    
 
 }
-.header__icons{
+.fa-magnifying-glass{
+    padding-left: 10px; 
+    padding: 10px;  
+}
+.header2{
     display: flex;
     font-family:sans-serif;
     font-size:small;
     font-weight: 100;
-    padding-top: 10px;
+    height: 40px;
+    
+    justify-content: space-between;
+    gap: 10px;
+    flex-direction: row;
+    
+    
+}
+.p1 {
+    
+    margin-top: 20px;
+    padding-bottom: px;
+    padding-left: 0px;
+    margin-right: px;
+    font-size: medium;   
+}
+.p2{
+    margin-top: 20px;
     padding-left: 10px;
-    margin-bottom: 10px;
-    height: 2px;
+    margin-left: px;
+    margin-right: 20px;
+    font-size: medium;
+        
+}
+.fa-cart-shopping{
+    padding-left: px;
+    margin-top: 20px;
+    font-size: large;
+    padding-right: 20px;
+}
+.login{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+    border: solid 1px black;
+    padding-bottom: 30px;
+    padding-top: 12px;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 5px;
+    background-color: white;
+    
+}
+.signup{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+    border: solid 1px black;
+    margin-bottom: px;
+    color: black;
+    font-weight: 600;
+    padding-top: 12px;
+    padding-bottom: 30px;
+    color: white;
+    background-color: black;
 
 }
-.header__icons p{
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+.web{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border: solid 1px black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:px;
+    padding-bottom: 30px;
+    color: black;
+    font-weight: 600;
+    margin-right: 20px;
 
-    
+}
+.fa-globe{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: large;
     
 }
